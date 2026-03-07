@@ -3,7 +3,7 @@ import eight_inch_square_frame from "./assets/varamala-8x8-inch-square-frame.jpg
 import ten_inch_square_frame from "./assets/varamala-10x10-inch-hexagon-frame.jpg";
 import fifteen_inch_square_frame from "./assets/varamala-15x12-inch-rectangle-frame.jpg";
 import sixteen_inch_awards_frame from "./assets/16x20-inch-awards-preservation-frame.jpg";
-import alphabetic_key_chain from "./assets/resin-alphabetics-keychain.jpg";
+import alphabetic_key_chain from "./assets/alphabet-keychain.jpg";
 import engagement_platter_white from "./assets/engagement-platter-white.jpg";
 import engagement_platter_sky_blue from "./assets/engagement-platter-sky-blue.jpg";
 import anniversary_pink_floral_frame from "./assets/anniversary-gift-pink-floral-frame.jpg";
