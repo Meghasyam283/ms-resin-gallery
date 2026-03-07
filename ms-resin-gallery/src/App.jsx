@@ -1,14 +1,14 @@
 import { useState, useRef } from 'react'
-import eight_inch_square_frame from "./assets/varamala-8×8-inch-Square-Frame.jpg"
-import ten_inch_square_frame from "./assets/varamala-10×10-inch-Hexagon-Frame.jpg"
-import fifteen_inch_square_frame from "./assets/varamala-15×12-inch-Rectangle-Frame.jpg"
-import sixteen_inch_awards_frame from "./assets/16×20-inch-Awards-Preservation-Frame.jpg";
-import alphabetic_key_chain from "./assets/Resin-Alphabetics-Keychain.jpg";
-import engagement_platter_white from "./assets/Engagement-Platter-White.jpg";
-import engagement_platter_sky_blue from "./assets/Engagement-Platter-Sky Blue.jpg";
-import anniversary_pink_floral_frame from "./assets/Anniversary-Gift Pink-Floral-Frame.jpg";
-import engagement_platter_teal_blue from "./assets/Engagement-Platter-Teal-Blue.jpg";
-import anniversary_blue_floral_frame from "./assets/Anniversary-Gift-Blue-Floral-Frame.jpg";
+import eight_inch_square_frame from "./assets/varamala-8×8-inch-square-frame.jpg"
+import ten_inch_square_frame from "./assets/varamala-10×10-inch-hexagon-frame.jpg"
+import fifteen_inch_square_frame from "./assets/varamala-15×12-inch-rectangle-frame.jpg"
+import sixteen_inch_awards_frame from "./assets/16×20-inch-awards-preservation-frame.jpg";
+import alphabetic_key_chain from "./assets/resin-alphabetics-keychain.jpg";
+import engagement_platter_white from "./assets/engagement-platter-white.jpg";
+import engagement_platter_sky_blue from "./assets/engagement-platter-sky-blue.jpg";
+import anniversary_pink_floral_frame from "./assets/anniversary-gift-pink-floral-frame.jpg";
+import engagement_platter_teal_blue from "./assets/engagement-platter-teal-blue.jpg";
+import anniversary_blue_floral_frame from "./assets/anniversary-gift-blue-floral-frame.jpg";
 import car_dash_board from "./assets/car-dash-board.jpg";
 import './App.css'
 
