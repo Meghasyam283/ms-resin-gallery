@@ -8,8 +8,8 @@ import engagement_platter_white from "./assets/resin-engagement-platter-white.jp
 import engagement_platter_sky_blue from "./assets/resin-engagement-platter-sky-blue.jpg";
 import anniversary_pink_floral_frame from "./assets/anniversary-gift-pink-floral-frame.jpg";
 import engagement_platter_teal_blue from "./assets/resin-engagement-platter-teal-blue.jpg";
-import anniversary_blue_floral_frame from "./assets/anniversary-gift-blue-floral-frame.jpg";
-import car_dash_board from "./assets/car-dash-board.jpg";
+import anniversary_blue_floral_frame from "./assets/resin-anniversary-gift-blue-floral-frame.jpg";
+import car_dash_board from "./assets/resin-car-dash-board.jpg";
 import './App.css'
 
 const INITIAL_PRODUCTS = [
