@@ -4,10 +4,10 @@ import ten_inch_square_frame from "./assets/varamala-10×10-inch-Hexagon-Frame.j
 import fifteen_inch_square_frame from "./assets/varamala-15×12-inch-Rectangle-Frame.jpg"
 import sixteen_inch_awards_frame from "./assets/16×20-inch-Awards-Preservation-Frame.jpg";
 import alphabetic_key_chain from "./assets/Resin-Alphabetics-Keychain.jpg";
-import engagement_platter_white from "./assets/Engagement-Platter—White.jpg";
-import engagement_platter_sky_blue from "./assets/Engagement-Platter—Sky Blue.jpg";
+import engagement_platter_white from "./assets/Engagement-Platter-White.jpg";
+import engagement_platter_sky_blue from "./assets/Engagement-Platter-Sky Blue.jpg";
 import anniversary_pink_floral_frame from "./assets/Anniversary-Gift Pink-Floral-Frame.jpg";
-import engagement_platter_teal_blue from "./assets/Engagement-Platter—Teal-Blue.jpg";
+import engagement_platter_teal_blue from "./assets/Engagement-Platter-Teal-Blue.jpg";
 import anniversary_blue_floral_frame from "./assets/Anniversary-Gift-Blue-Floral-Frame.jpg";
 import car_dash_board from "./assets/car-dash-board.jpg";
 import './App.css'
