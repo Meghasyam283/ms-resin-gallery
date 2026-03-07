@@ -151,9 +151,9 @@ function ProductCard({ product, onDelete }) {
             Enquire
           </button>
         </div>
-        {onDelete && (
+        {/* {onDelete && (
           <button className="delete-btn" onClick={() => onDelete(product.id)} title="Remove product">✕ Remove</button>
-        )}
+        )} */}
       </div>
     </div>
   )
