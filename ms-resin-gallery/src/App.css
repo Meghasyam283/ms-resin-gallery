@@ -138,17 +138,18 @@
   transition: all 0.2s;
   letter-spacing: 0.5px;
 }
+
 .pill:hover {
   border-color: var(--gold);
   color: var(--gold);
 }
+
 .pill-active {
-  background: var(--gold);
-  border-color: var(--gold);
-  color: #fff;
+  background: var(--gold) !important;
+  border-color: var(--gold) !important;
+  color: #ffffff !important;
   font-weight: 500;
 }
-
 .add-btn {
   padding: 9px 22px;
   background: linear-gradient(135deg, #2e1a12, #4a2c1a);
