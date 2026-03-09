@@ -318,9 +318,9 @@ export default function App() {
               >{cat}</button>
             ))}
           </div>
-          <button className="add-btn" onClick={() => setShowModal(true)}>
+          {/* <button className="add-btn" onClick={() => setShowModal(true)}>
             ✦ Add Product
-          </button>
+          </button> */}
         </div>
       </div>
 
