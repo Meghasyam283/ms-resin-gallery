@@ -10,6 +10,7 @@ import anniversary_pink_floral_frame from "./assets/anniversary-gift-pink-floral
 import engagement_platter_teal_blue from "./assets/resin-engagement-platter-teal-blue.jpg";
 import anniversary_blue_floral_frame from "./assets/resin-anniversary-gift-blue-floral-frame.jpg";
 import car_dash_board from "./assets/resin-car-dash-board.jpg";
+import orange_black_coaster from "./assets/orange-black-coster-set.jpeg";
 import './App.css'
 
 const INITIAL_PRODUCTS = [
@@ -57,7 +58,7 @@ const INITIAL_PRODUCTS = [
     id: 5,
     category: "Gifts",
     title: "Anniversary Gift Pink Floral Frame",
-    price: 1200,
+    price: 1199,
     description: "A beautifully handcrafted circular resin frame featuring preserved florals and the couple's photo, sealed in a glossy finish to cherish their special day forever. Personalized with names and a forever message — an elegant, heartfelt, and timeless wedding gift.",
     image: anniversary_pink_floral_frame,
     emoji: "💑",
@@ -67,7 +68,7 @@ const INITIAL_PRODUCTS = [
     id: 6,
     category: "Platters",
     title: "Engagement Platter — Teal Blue",
-    price: 1800,
+    price: 1799,
     description: "A teal blue resin engagement platter featuring crystal-clear blue waves, real seashells, pearls, and delicate golden accents for a dreamy coastal vibe. Customized with names, date, and calendar detail — beautifully captures the beginning of your forever.",
     image: engagement_platter_teal_blue,
     emoji: "🐚",
@@ -77,7 +78,7 @@ const INITIAL_PRODUCTS = [
     id: 7,
     category: "Platters",
     title: "Engagement Platter — Sky Blue",
-    price: 1800,
+    price: 1799,
     description: "A sky blue resin engagement platter featuring crystal-clear blue waves, real seashells, pearls, and delicate golden accents for a dreamy coastal vibe. Customized with names, date, and calendar detail.",
     image: engagement_platter_sky_blue,
     emoji: "🌊",
@@ -87,7 +88,7 @@ const INITIAL_PRODUCTS = [
     id: 8,
     category: "Platters",
     title: "Engagement Platter — White",
-    price: 1800,
+    price: 1799,
     description: "A white-themed resin engagement platter featuring a crystal-clear white background. Customized with names, date, and calendar detail — this unique keepsake beautifully captures the beginning of your forever.",
     image: engagement_platter_white,
     emoji: "🤍",
@@ -97,7 +98,7 @@ const INITIAL_PRODUCTS = [
     id: 9,
     category: "Accessories",
     title: "Resin Alphabetics Keychain",
-    price: 100,
+    price: 99,
     description: "A crystal-clear alphabet resin keychain with subtle floral inclusions, lightweight yet durable — a stylish and meaningful accessory for your keys or bags.",
     image: alphabetic_key_chain,
     emoji: "🔑",
@@ -107,7 +108,7 @@ const INITIAL_PRODUCTS = [
     id: 10,
     category: "Accessories",
     title: "Car Dashboard — Lord Ganesha",
-    price: 100,
+    price: 99,
     description: "A handcrafted resin Lord Ganesha idol with elegant golden detailing, set on a sturdy base — perfect for your car dashboard to invite positivity, protection, and blessings on every journey.",
     image: car_dash_board,
     emoji: "🙏",
@@ -117,15 +118,26 @@ const INITIAL_PRODUCTS = [
     id: 11,
     category: "Gifts",
     title: "Anniversary Gift blue Floral Frame",
-    price: 1200,
+    price: 1199,
     description: "A beautifully handcrafted circular resin frame featuring preserved florals and the couple's photo, sealed in a glossy finish to cherish their special day forever. Personalized with names and a forever message — an elegant, heartfelt, and timeless wedding gift.",
     image: anniversary_blue_floral_frame,
     emoji: "💑",
-    badge: "Heartfelt",
+    badge: "Premium",
+  },
+
+    {
+    id: 12,
+    category: "Home Decor",
+    title: "Orange-Red Round Resin and Black Hexagon Floral Coaster",
+    price: 149,
+    description: "Handcrafted round resin coaster featuring vibrant orange and red tones with unique dark stone accents.\nIts glossy finish adds elegance while protecting your table from heat, spills, and stains.",
+    image: orange_black_coaster,
+    emoji: "☕",
+    badge: "Elegant",
   },
 ]
 
-const CATEGORIES = ["All", "Frames", "Gifts", "Platters", "Accessories"]
+const CATEGORIES = ["All", "Frames", "Gifts", "Platters", "Accessories", "Home Decor"]
 
 function ProductCard({ product, onDelete }) {
   return (
@@ -232,7 +244,7 @@ function AddProductModal({ onClose, onAdd }) {
 
         <div className="modal-footer">
           <button className="cancel-btn" onClick={onClose}>Cancel</button>
-          <button className="submit-btn" onClick={handleSubmit}>✦ Add Product</button>
+          {/* <button className="submit-btn" onClick={handleSubmit}>✦ Add Product</button> */}
         </div>
       </div>
     </div>
@@ -306,9 +318,9 @@ export default function App() {
               >{cat}</button>
             ))}
           </div>
-          {/* <button className="add-btn" onClick={() => setShowModal(true)}>
+          <button className="add-btn" onClick={() => setShowModal(true)}>
             ✦ Add Product
-          </button> */}
+          </button>
         </div>
       </div>
 
